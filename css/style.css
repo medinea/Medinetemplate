@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar-left{
+    width: 20%;
+    height: 100vh;
+    background-image: url(../img/left-menu-background.jpg);
+    background-size: cover;
+    position: fixed
+    
+}
+ img{
+     width: 80px;
+    height: 80px;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-bottom: 15%
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px; 
+    font-size: 14px;
+    font-weight: 400
+}
+
+a i{
+    margin-right: 10px;
+}
+
+li a:hover{
+    color:#d34e35;
+    transition: 0.6s
+}
+
+h4{
+    color:white;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+
+.follow a:hover{
+    color: #393939
+}
+
+.context-menu{
+    width: 417px;
+    height: 440px;
+    border: 1px solid #e1e2e5;
+    
+    display: inline-block;
+}
+
+ul li ul li a{
+    font-size:12px;
+}
+.context{
+    margin-left: 20%
+}
+
+.context-menu img{
+
+
+    width: 417px;
+    height: 350px;
+    margin: 0;
+} 
+pre{
+    font-size: 14px;
+    line-height: 25px;
+   
+    font-weight: 400;
+  
+    
+    color: #555555;
+    margin: 0;
+    padding-left: 15px;
+    font-family: Montserrat, sans-serif;
+}
+
+button{
+    border: 1px solid   #ffffff;
+    padding: 12px 20px;
+    float: right;
+    margin-right:25px;
+    color:#555555;
+    font-family: Montserrat, sans-serif
+}
+
+button:hover{
+    border: 1px solid   #d34e35;
+    background-color: #d34e35;
+    color: white;
+    transition: 0.4s;
+    transition-duration: all 0.4s 
+}
+a .overlay{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e1e2e5;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:white;
+    transition: all 0.6s;
+}
+.image{
+    position: relative;
+}
+
+.image:hover .overlay{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    transition: all 0.6s 
+}
+
+.image:hover .overlay i{
+    top: 45%;
+    position: absolute;
+    left: 45%;
+    color:#d34e35;
+    font-size: 45px;
+    opacity: 1;
+    
+}
+
+a .overlay i{
+    top: 45%;
+    position: absolute;
+    left: 45%;
+    color:#d34e35;
+    font-size: 45px;
+    opacity: 0;
+    
+}
